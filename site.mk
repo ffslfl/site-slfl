@@ -34,8 +34,9 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := 0.0.1+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := develop-2016.2.3-$(shell date '+%Y%m%d')
 
+DEFAULT_GLUON_BRANCH=develop
 
 ##	GLUON_RELEASE
 #		call make with custom GLUON_RELEASE flag, to use your own release version scheme.
@@ -55,3 +56,5 @@ GLUON_REGION ?= eu
 
 # Languages to include
 GLUON_LANGS ?= en de
+
+GLUON_ATH10K_MESH ?= 11s
