@@ -20,7 +20,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-network \
 	gluon-web-wifi-config \
 	gluon-web-private-wifi \
-	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-setup-mode \
