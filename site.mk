@@ -8,7 +8,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-alfred \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
-	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
@@ -27,6 +26,10 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	iptables \
 	iwinfo
+
+# from ffki-packages:
+GLUON_SITE_PACKAGES += \
+	gluon-config-mode-contact-info-anonymous-hint
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
