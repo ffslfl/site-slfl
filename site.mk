@@ -4,22 +4,22 @@
 
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
-	gluon-alfred \
 	gluon-respondd \
+	respondd-module-airtime \
+	gluon-alfred \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
-	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-luci-admin \
-	gluon-luci-autoupdater \
-	gluon-luci-portconfig \
-	gluon-luci-wifi-config \
-	gluon-next-node \
+	gluon-web-admin \
+	gluon-web-autoupdater \
+	gluon-web-network \
+	gluon-web-wifi-config \
+	gluon-web-private-wifi \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-setup-mode \
@@ -27,6 +27,10 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	iptables \
 	iwinfo
+
+# from ffki-packages:
+GLUON_SITE_PACKAGES += \
+	gluon-config-mode-contact-info-anonymous-hint
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
