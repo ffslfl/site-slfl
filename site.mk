@@ -35,7 +35,7 @@ GLUON_SITE_PACKAGES += \
 GLUON_SITE_PACKAGES += \
 	fff-random \
 	ffslfl-fastd \
-	ffslfl-tunneldigger
+	ffslfl-tunneldigger \
 	ffslfl-vpn-select \
 	tunneldigger
 
