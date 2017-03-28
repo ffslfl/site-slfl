@@ -20,7 +20,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-network \
 	gluon-web-wifi-config \
 	gluon-web-private-wifi \
-	gluon-mesh-vpn-tunneldigger \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
@@ -31,6 +30,14 @@ GLUON_SITE_PACKAGES := \
 # from ffki-packages:
 GLUON_SITE_PACKAGES += \
 	gluon-config-mode-contact-info-anonymous-hint
+	
+# from ffslfl-packages:
+GLUON_SITE_PACKAGES += \
+	fff-random \
+	ffslfl-fastd \
+	ffslfl-tunneldigger
+	ffslfl-vpn-select \
+	tunneldigger
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
