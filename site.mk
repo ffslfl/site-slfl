@@ -25,11 +25,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	haveged \
 	iptables \
-	iwinfo
-
-# from ffki-packages:
-GLUON_SITE_PACKAGES += \
-	gluon-config-mode-contact-info-anonymous-hint
+	iwinfo \
+	gluon-config-mode-contact-info
 	
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
