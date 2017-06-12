@@ -7,7 +7,7 @@ GLUON_SITE_FEEDS='ffki ffslfl'
 PACKAGES_FFKI_REPO=git://github.com/freifunk-kiel/ffki-packages.git
 
 # the version/commit of the git repository to clone
-PACKAGES_FFKI_COMMIT=a85172564fe6463bb8b900d53ede8d642433c3a7
+PACKAGES_FFKI_COMMIT=d19bf247092eee2bc40cb4ff17ddd720b8a2a976
 
 # the branch to check out
 PACKAGES_FFKI_BRANCH=lede
