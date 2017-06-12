@@ -36,6 +36,10 @@ GLUON_SITE_PACKAGES += \
 	ffslfl-vpn-select \
 	tunneldigger
 
+# from ffki-packages:
+GLUON_SITE_PACKAGES += \
+	gluon-config-mode-ppa
+
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
 #		gluon relies on
