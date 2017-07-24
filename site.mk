@@ -25,7 +25,8 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	iptables \
 	iwinfo \
-	gluon-config-mode-contact-info
+	gluon-config-mode-contact-info \
+	gluon-mesh-vpn-core
 	
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
