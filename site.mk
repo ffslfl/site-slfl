@@ -48,7 +48,7 @@ GLUON_SITE_PACKAGES += \
 
 DEFAULT_GLUON_RELEASE := develop-2017.1.x-$(shell date '+%Y%m%d')
 
-DEFAULT_GLUON_BRANCH=develop
+DEFAULT_GLUON_BRANCH=experimental
 
 ##	GLUON_RELEASE
 #		call make with custom GLUON_RELEASE flag, to use your own release version scheme.
@@ -59,6 +59,7 @@ DEFAULT_GLUON_BRANCH=develop
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
+GLUON_BRANCH ?= $(DEFAULT_GLUON_BRANCH)
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
