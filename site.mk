@@ -10,7 +10,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-core \
 	gluon-config-mode-geo-location \
-	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-web-admin \
@@ -33,7 +32,8 @@ GLUON_SITE_PACKAGES += \
 	ffslfl-fastd \
 	ffslfl-tunneldigger \
 	ffslfl-vpn-select \
-	tunneldigger
+	tunneldigger \
+	gluon-config-mode-mesh-vpn-vpn-select
 
 # from ffki-packages:
 GLUON_SITE_PACKAGES += \
