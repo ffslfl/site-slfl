@@ -16,7 +16,7 @@ PACKAGES_FFKI_BRANCH=lede
 PACKAGES_FFSLFL_REPO=git://github.com/ffslfl/slfl-packages.git
 
 # the version/commit of the git repository to clone
-PACKAGES_FFSLFL_COMMIT=12d6c35b63858e904b2a1358778e693e03066bc7
+PACKAGES_FFSLFL_COMMIT=6c885efdd25cf0342be016ac6cd0fa6d5d95da67
 
 # the branch to check out
 PACKAGES_FFSLFL_BRANCH=master
