@@ -3,6 +3,7 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 
 ## Changelog
 
+### 0.4.1
 - Fastd funktioniert wieder
 - Software in lua umgesetzt
 - Tunneldigger aktualisiert
@@ -10,6 +11,4 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 - USB Support hinzugefügt
 - Teilkompatiblität von fastd und tunneldigger mit offiziellen gluon paketen hergestellt
 - Möglicherweise Verbindungszeit der Router minimiert
-
-## TODO
-- Dropdown um zwischen fgastd, tunneldigger oder kein mesh-vpn zu wählen
+- Dropdown um zwischen fastd, tunneldigger oder kein mesh-vpn zu wählen
