@@ -3,7 +3,7 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 
 ## Changelog
 
-### 0.4.1
+### 2017.1.1-0.4.1
 - Fastd funktioniert wieder
 - Software in lua umgesetzt
 - Tunneldigger aktualisiert
