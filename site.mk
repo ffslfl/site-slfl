@@ -46,9 +46,17 @@ GLUON_SITE_PACKAGES += \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := develop-2017.1.x-$(shell date '+%Y%m%d')
+# When building a self made Version use this syntax:
+DEFAULT_GLUON_RELEASE := 2017.1.1-0.4.1~dev$(shell date '+%y%m%d%H%M')
 
-DEFAULT_GLUON_BRANCH=experimental
+# When building a experimental version use this syntax:
+#DEFAULT_GLUON_RELEASE := 2017.1.1-0.4.1~exp$(shell date '+%y%m%d%H%M')
+
+# When building a stable version use this syntax:
+#DEFAULT_GLUON_RELEASE := 2017.1.1-0.4.1
+
+# Routers should use stable. Use experimental autoupdate branch only when doing the autoupdate test. It should never be a router default in the main net.
+DEFAULT_GLUON_BRANCH=stable
 
 ##	GLUON_RELEASE
 #		call make with custom GLUON_RELEASE flag, to use your own release version scheme.
