@@ -10,5 +10,6 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 - Alfred packet entfernt, da wir respondd nutzen
 - USB Support hinzugefügt
 - Teilkompatiblität von fastd und tunneldigger mit offiziellen gluon paketen hergestellt
-- Möglicherweise Verbindungszeit der Router minimiert
+- Verbindungszeit der Router minimiert
 - Dropdown um zwischen fastd, tunneldigger oder kein mesh-vpn zu wählen
+- Interface der tunnel von l2tp0 auf mesh-vpn gewechselt (REBOOT required!)
