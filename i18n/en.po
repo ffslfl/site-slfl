@@ -16,7 +16,7 @@ msgstr ""
 "Please fill out the following form and submit it."
 
 msgid "gluon-config-mode:pubkey"
-msgstr " 
+msgstr " "
 
 msgid "gluon-config-mode:novpn"
 msgstr ""
