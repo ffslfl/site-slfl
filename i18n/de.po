@@ -26,6 +26,9 @@ msgstr ""
 "aufbauen, wenn andere Freifunk-Router in WLAN-Reichweite sind."
 "</p>"
 
+msgid "gluon-config-mode:tunneldigger"
+msgstr " "
+
 msgid "gluon-config-mode:reboot"
 msgstr ""
 "<p>Dein Knoten <em><%= pcdata(hostname) %></em> startet gerade neu und wird "
