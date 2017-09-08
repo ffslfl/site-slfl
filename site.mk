@@ -39,6 +39,10 @@ GLUON_SITE_PACKAGES += \
 GLUON_SITE_PACKAGES += \
 	gluon-config-mode-ppa \
 	gluon-config-mode-hostname-no-pretty
+	
+# from https://github.com/Freifunk-Nord/eulenfunk-packages
+GLUON_SITE_PACKAGES += \
+	gluon-quickfix
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
@@ -47,13 +51,13 @@ GLUON_SITE_PACKAGES += \
 #		to decide if a version is newer or not.
 
 # When building a self made Version use this syntax:
-DEFAULT_GLUON_RELEASE := 2017.1.1-0.4.1~dev$(shell date '+%y%m%d%H%M')
+DEFAULT_GLUON_RELEASE := 2017.1.2-0.4.2~dev$(shell date '+%y%m%d%H%M')
 
 # When building a experimental version use this syntax:
-#DEFAULT_GLUON_RELEASE := 2017.1.1-0.4.1~exp$(shell date '+%y%m%d%H%M')
+#DEFAULT_GLUON_RELEASE := 2017.1.2-0.4.2~exp$(shell date '+%y%m%d%H%M')
 
 # When building a stable version use this syntax:
-#DEFAULT_GLUON_RELEASE := 2017.1.1-0.4.1
+#DEFAULT_GLUON_RELEASE := 2017.1.2-0.4.2
 
 # Routers should use stable. Use experimental autoupdate branch only when doing the autoupdate test. It should never be a router default in the main net.
 DEFAULT_GLUON_BRANCH=stable
