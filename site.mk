@@ -156,16 +156,16 @@ USB_PACKAGES_STORAGE := \
 	kmod-nls-koi8r \
 	kmod-nls-utf8
 # from ffki-packages:
-#USB_PACKAGES_STORAGE += \
-#	gluon-usb-media \
-#	gluon-config-mode-usb-media
+USB_PACKAGES_STORAGE += \
+	gluon-usb-media \
+	gluon-config-mode-usb-media
 
 # add addition network drivers and usb stuff only to targes where disk space does not matter
 ifeq ($(GLUON_TARGET),x86-generic)
 	# support the USB stack on x86 devices
 	# and add a few common USB NICs
 	GLUON_SITE_PACKAGES += \
-#		$(USB_PACKAGES_STORAGE) \
+		$(USB_PACKAGES_STORAGE) \
 		$(USB_PACKAGES_HID) \
 		$(USB_PACKAGES_TETHERING) \
 		$(USB_PACKAGES_3G) \
