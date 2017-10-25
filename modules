@@ -1,7 +1,7 @@
 # This file allows specifying additional repositories to use
 # when building gluon.
 
-GLUON_SITE_FEEDS='ffki ffslfl'
+GLUON_SITE_FEEDS='ffki ffslfl eulenfunk'
 
 # the git repository from where to clone the package feed
 PACKAGES_FFKI_REPO=git://github.com/freifunk-kiel/ffki-packages.git
