@@ -51,13 +51,13 @@ GLUON_SITE_PACKAGES += \
 #		to decide if a version is newer or not.
 
 # When building a self made Version use this syntax:
-DEFAULT_GLUON_RELEASE := 2017.1.2-0.4.2~dev$(shell date '+%y%m%d%H%M')
+DEFAULT_GLUON_RELEASE := 2017.1.3-0.4.2~dev$(shell date '+%y%m%d%H%M')
 
 # When building a experimental version use this syntax:
-#DEFAULT_GLUON_RELEASE := 2017.1.2-0.4.2~exp$(shell date '+%y%m%d%H%M')
+#DEFAULT_GLUON_RELEASE := 2017.1.3-0.4.2~exp$(shell date '+%y%m%d%H%M')
 
 # When building a stable version use this syntax:
-#DEFAULT_GLUON_RELEASE := 2017.1.2-0.4.2
+#DEFAULT_GLUON_RELEASE := 2017.1.3-0.4.2
 
 # Routers should use stable. Use experimental autoupdate branch only when doing the autoupdate test. It should never be a router default in the main net.
 DEFAULT_GLUON_BRANCH=stable
@@ -80,7 +80,7 @@ GLUON_PRIORITY ?= 0
 GLUON_REGION ?= eu
 
 # Languages to include
-GLUON_LANGS ?= en de
+GLUON_LANGS ?= de en
 
 GLUON_ATH10K_MESH ?= 11s
 
