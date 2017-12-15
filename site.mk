@@ -3,8 +3,12 @@
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
 
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-15 \
+	gluon-mesh-babel \
+	gluon-client-bridge \
+	gluon-web-prefixd \
+	gluon-l3roamd \
 	gluon-respondd \
+	prefixd \
 	respondd-module-airtime \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
