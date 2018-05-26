@@ -42,12 +42,11 @@ msgstr ""
 "<p>Viel Spaß mit deinem Knoten und der Erkundung von Freifunk!</p>"
 
 msgid "gluon-config-mode:altitude-label"
-msgstr "Höhe"
+msgstr "Höhe (3m pro Stock)"
 
 msgid "gluon-config-mode:altitude-help"
 msgstr ""
-"Die Höhenangabe ist optional und sollte nur gesetzt werden, wenn ein "
-"exakter Wert bekannt ist."
+"Die Höhenangabe ist optional und kann geschätzt werden mit 3m pro Stockwerk."
 
 # translations from within default gluon:
 
