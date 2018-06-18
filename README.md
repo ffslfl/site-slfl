@@ -3,6 +3,15 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 
 ## Changelog
 
+### 2017.1.7-0.4.2-4
+- Update auf Gluon v2017.1.7
+- USB Support eingefügt
+- Hinzufügen vom quickfix
+- Limit Optionen wieder gefixt
+- Tunneldigger Update
+- IPv6 Prefix Probleme berichtigt
+- Legacy Software Update skript optimiert
+
 ### 2017.1.1-0.4.1
 - Fastd funktioniert wieder
 - Software in lua umgesetzt
