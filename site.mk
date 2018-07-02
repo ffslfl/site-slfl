@@ -17,7 +17,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-network \
 	gluon-web-wifi-config \
 	gluon-web-private-wifi \
-	gluon-radvd \
+#	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
 	gluon-status-page-mesh-batman-adv \
@@ -26,7 +26,7 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	gluon-config-mode-contact-info \
 	gluon-mesh-vpn-core
-	
+
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
 	fff-random \
@@ -40,7 +40,7 @@ GLUON_SITE_PACKAGES += \
 GLUON_SITE_PACKAGES += \
 	gluon-config-mode-ppa \
 	gluon-config-mode-hostname-no-pretty
-	
+
 # from https://github.com/Freifunk-Nord/eulenfunk-packages
 GLUON_SITE_PACKAGES += \
 	gluon-quickfix
