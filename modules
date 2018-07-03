@@ -16,11 +16,7 @@ PACKAGES_FFKI_BRANCH=lede
 PACKAGES_FFSLFL_REPO=git://github.com/ffslfl/slfl-packages.git
 
 # the version/commit of the git repository to clone
-PACKAGES_FFSLFL_COMMIT=1ce8ee341e9a11489e8082d332a210f6ebc2300d
+PACKAGES_FFSLFL_COMMIT=a48e969913b0647a2fce458a0c14d0bbef8527ee
 
 # the branch to check out
 PACKAGES_FFSLFL_BRANCH=master
-
-PACKAGES_EULENFUNK_REPO=git://github.com/eulenfunk/packages.git
-PACKAGES_EULENFUNK_COMMIT=47f21034fc659ca29bd18d38c8b78fc3d10a73a5
-PACKAGES_EULENFUNK_BRANCH=lede
