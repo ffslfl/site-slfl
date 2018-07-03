@@ -20,7 +20,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
-	gluon-status-page-mesh-batman-adv \
 	haveged \
 	iptables \
 	iwinfo \
