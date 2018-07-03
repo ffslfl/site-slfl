@@ -17,7 +17,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-network \
 	gluon-web-wifi-config \
 	gluon-web-private-wifi \
-#	gluon-radvd \
+	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
 	gluon-status-page-mesh-batman-adv \
