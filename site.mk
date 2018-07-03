@@ -34,16 +34,13 @@ GLUON_SITE_PACKAGES += \
 	ffslfl-vpn-select \
 	ffslfl-radvd-disable \
 	tunneldigger \
-	gluon-config-mode-mesh-vpn-vpn-select
+	gluon-config-mode-mesh-vpn-vpn-select \
+	gluon-quickfix
 
 # from ffki-packages:
 GLUON_SITE_PACKAGES += \
 	gluon-config-mode-ppa \
 	gluon-config-mode-hostname-no-pretty
-
-# from https://github.com/Freifunk-Nord/eulenfunk-packages
-GLUON_SITE_PACKAGES += \
-	gluon-quickfix
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
