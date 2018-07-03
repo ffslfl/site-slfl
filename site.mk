@@ -33,6 +33,7 @@ GLUON_SITE_PACKAGES += \
 	ffslfl-fastd \
 	ffslfl-tunneldigger \
 	ffslfl-vpn-select \
+	ffslfl-radvd-disable \
 	tunneldigger \
 	gluon-config-mode-mesh-vpn-vpn-select
 
