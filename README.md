@@ -3,6 +3,9 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 
 ## Changelog
 
+### 2017.1.8-0.5.0.3
+- Migrations script aufgeräumt
+
 ### 2017.1.8-0.5.0.2
 - GW3 als mirror beim update hinzugefügt, damit mesh nodes updates erhalten können
 
