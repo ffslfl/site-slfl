@@ -4,6 +4,10 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 ## Changelog
 
 ### 2017.1.7-0.4.2-4
+- gluon-radvd deaktiviert um routing zu fixen
+- migrations script permissions repariert
+
+### 2017.1.7-0.4.2-4
 - Update auf Gluon v2017.1.7
 - USB Support eingefügt
 - Hinzufügen vom quickfix
