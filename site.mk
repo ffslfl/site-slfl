@@ -80,7 +80,7 @@ GLUON_REGION ?= eu
 # Languages to include
 GLUON_LANGS ?= de en
 
-GLUON_ATH10K_MESH ?= 11s
+GLUON_WLAN_MESH ?= 11s
 
 # basic support the USB stack
 #USB_PACKAGES_BASIC := \
