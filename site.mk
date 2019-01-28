@@ -39,8 +39,7 @@ GLUON_SITE_PACKAGES += \
 
 # from ffki-packages:
 GLUON_SITE_PACKAGES += \
-	gluon-config-mode-ppa \
-	gluon-config-mode-hostname-no-pretty
+	gluon-config-mode-ppa
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
