@@ -16,7 +16,7 @@ PACKAGES_FFKI_BRANCH=2018.1.x
 PACKAGES_FFSLFL_REPO=git://github.com/ffslfl/slfl-packages.git
 
 # the version/commit of the git repository to clone
-PACKAGES_FFSLFL_COMMIT=de4ea76bb4991dba6b38e0982e8418ddcc599f67 
+PACKAGES_FFSLFL_COMMIT=f53c5acb916d867be7d8dc8b47f08365b8bf5af6 
 
 # the branch to check out
 PACKAGES_FFSLFL_BRANCH=c-rewrite
