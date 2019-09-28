@@ -2,30 +2,18 @@
 #		specify gluon/openwrt packages to include here
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
 
-GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-15 \
-	gluon-respondd \
-	respondd-module-airtime \
-	gluon-autoupdater \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-core \
-	gluon-config-mode-geo-location \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-web-admin \
-	gluon-web-autoupdater \
-	gluon-web-network \
-	gluon-web-wifi-config \
-	gluon-web-private-wifi \
-	gluon-radvd \
-	gluon-setup-mode \
-	gluon-status-page \
-	haveged \
-	iptables \
-	iwinfo \
-	gluon-config-mode-contact-info \
-	gluon-mesh-vpn-core
-
+GLUON_FEATURES := \
+	autoupdater \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	ebtables-limit-arp \
+	mesh-batman-adv-15 \
+	mesh-vpn-fastd \
+	respondd \
+	status-page \
+	web-advanced \
+	web-wizard
+	
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
 	fff-random \
@@ -40,6 +28,16 @@ GLUON_SITE_PACKAGES += \
 # from ffki-packages:
 GLUON_SITE_PACKAGES += \
 	gluon-config-mode-ppa
+	
+#		Specify additional Gluon/LEDE packages to include here;
+#		A minus sign may be prepended to remove a packages from the
+#		selection that would be enabled by default or due to the
+#		choosen feature flags
+
+GLUON_SITE_PACKAGES := haveged iwinfo
+
+
+# Variables set with ?= can be overwritten from the command line
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
@@ -48,13 +46,13 @@ GLUON_SITE_PACKAGES += \
 #		to decide if a version is newer or not.
 
 # When building a self made Version use this syntax:
-DEFAULT_GLUON_RELEASE := 2017.1.5-0.4.2~dev$(shell date '+%y%m%d%H%M')
+DEFAULT_GLUON_RELEASE := 2019.1-0.4.3~dev$(shell date '+%y%m%d%H%M')
 
 # When building a experimental version use this syntax:
-#DEFAULT_GLUON_RELEASE := 2017.1.5-0.4.2~exp$(shell date '+%y%m%d%H%M')
+#DEFAULT_GLUON_RELEASE := 2019.1-0.4.3~exp$(shell date '+%y%m%d%H%M')
 
 # When building a stable version use this syntax:
-#DEFAULT_GLUON_RELEASE := 2017.1.5-0.4.2
+#DEFAULT_GLUON_RELEASE := 2019.1-0.4.3
 
 # Routers should use stable. Use experimental autoupdate branch only when doing the autoupdate test. It should never be a router default in the main net.
 DEFAULT_GLUON_BRANCH=stable
@@ -196,3 +194,6 @@ endif
 ifeq ($(GLUON_TARGET),mpc85xx-generic)
 	GLUON_tp-link-tl-wdr4900-v1_SITE_PACKAGES := $(USB_PACKAGES_STORAGE)
 endif
+
+# Do not build images for deprecated devices
+GLUON_DEPRECATED ?= 0
