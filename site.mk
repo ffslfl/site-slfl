@@ -12,7 +12,10 @@ GLUON_FEATURES := \
 	status-page \
 	web-advanced \
 	web-wizard
-	
+
+GLUON_SITE_PACKAGES := \
+	gluon-web-private-wifi
+
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
 	fff-random \
