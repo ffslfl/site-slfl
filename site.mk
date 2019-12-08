@@ -13,7 +13,7 @@ GLUON_FEATURES := \
 	web-advanced \
 	web-wizard
 
-GLUON_SITE_PACKAGES := \
+GLUON_SITE_PACKAGES += \
 	gluon-web-private-wifi
 
 # from ffslfl-packages:
@@ -36,7 +36,7 @@ GLUON_SITE_PACKAGES += \
 #		selection that would be enabled by default or due to the
 #		choosen feature flags
 
-GLUON_SITE_PACKAGES := haveged iwinfo
+GLUON_SITE_PACKAGES += haveged iwinfo
 
 
 # Variables set with ?= can be overwritten from the command line
