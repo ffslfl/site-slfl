@@ -14,7 +14,8 @@ GLUON_FEATURES := \
 	web-wizard
 
 GLUON_SITE_PACKAGES += \
-	gluon-web-private-wifi
+	gluon-web-private-wifi \
+	respondd-module-airtime
 
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
