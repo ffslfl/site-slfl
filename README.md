@@ -7,6 +7,7 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 - Update to 2019.x
 - Fix ingress/egress code
 - Update tunndeldigger version
+- Add airtime package
 
 ### 2017.1.8-0.5.0.3
 - Migrations script aufgeräumt
