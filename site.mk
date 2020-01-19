@@ -15,7 +15,8 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES += \
 	gluon-web-private-wifi \
 	respondd-module-airtime \
-	gluon-radv-filterd
+	gluon-radv-filterd \
+	gluon-radvd
 
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
