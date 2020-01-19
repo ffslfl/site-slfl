@@ -16,7 +16,7 @@ PACKAGES_FFKI_BRANCH=2018.1.x
 PACKAGES_FFSLFL_REPO=git://github.com/ffslfl/slfl-packages.git
 
 # the version/commit of the git repository to clone
-PACKAGES_FFSLFL_COMMIT=f490527cd4aa08bf3a2462da22654ecfeb0723ac
+PACKAGES_FFSLFL_COMMIT=8120a7b993c4e3a6a7b25fa04194f7e5b23800df
 
 # the branch to check out
 PACKAGES_FFSLFL_BRANCH=2018.x
