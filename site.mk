@@ -5,7 +5,6 @@
 GLUON_FEATURES := \
 	autoupdater \
 	ebtables-filter-multicast \
-	ebtables-filter-ra-dhcp \
 	ebtables-limit-arp \
 	mesh-batman-adv-15 \
 	respondd \
@@ -15,7 +14,8 @@ GLUON_FEATURES := \
 
 GLUON_SITE_PACKAGES += \
 	gluon-web-private-wifi \
-	respondd-module-airtime
+	respondd-module-airtime \
+	gluon-radv-filterd
 
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
