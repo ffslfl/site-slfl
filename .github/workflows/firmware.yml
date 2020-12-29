@@ -5,6 +5,9 @@ on:
   create:
     tags:
       - v*
+  push:
+    branches:
+      - experimental-ci
 
 jobs:
   build_firmware:
