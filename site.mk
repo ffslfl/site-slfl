@@ -12,6 +12,9 @@ GLUON_FEATURES := \
 	web-advanced \
 	web-wizard
 
+GLUON_FEATURES_standard := \
+  wireless-encryption-wpa3
+
 GLUON_SITE_PACKAGES += \
 	gluon-web-private-wifi \
 	respondd-module-airtime \
@@ -31,7 +34,7 @@ GLUON_SITE_PACKAGES += \
 # from ffki-packages:
 GLUON_SITE_PACKAGES += \
 	gluon-config-mode-ppa
-	
+
 #		Specify additional Gluon/LEDE packages to include here;
 #		A minus sign may be prepended to remove a packages from the
 #		selection that would be enabled by default or due to the
@@ -69,7 +72,8 @@ DEFAULT_GLUON_BRANCH=stable
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
-GLUON_BRANCH ?= $(DEFAULT_GLUON_BRANCH)
+GLUON_AUTOUPDATER_ENABLED ?= 1
+GLUON_AUTOUPDATER_BRANCH ?= $(DEFAULT_GLUON_BRANCH)
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
@@ -79,8 +83,6 @@ GLUON_REGION ?= eu
 
 # Languages to include
 GLUON_LANGS ?= de en
-
-GLUON_WLAN_MESH ?= 11s
 
 # basic support the USB stack
 #USB_PACKAGES_BASIC := \
