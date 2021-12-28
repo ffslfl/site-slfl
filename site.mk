@@ -42,7 +42,7 @@ GLUON_SITE_PACKAGES += \
 #		selection that would be enabled by default or due to the
 #		choosen feature flags
 
-GLUON_SITE_PACKAGES += haveged iwinfo
+GLUON_SITE_PACKAGES += iwinfo
 
 
 # Variables set with ?= can be overwritten from the command line
