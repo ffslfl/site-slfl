@@ -10,16 +10,18 @@ GLUON_FEATURES := \
 	respondd \
 	status-page \
 	web-advanced \
-	web-wizard
+	web-wizard \
+        config-mode-geo-location \
+        config-mode-geo-location-osm \
+        web-private-wifi \
+        radv-filterd \
+        web-logging
 
 GLUON_FEATURES_standard := \
   wireless-encryption-wpa3
 
 GLUON_SITE_PACKAGES += \
-	gluon-web-private-wifi \
-	respondd-module-airtime \
-	gluon-radv-filterd \
-	gluon-radvd
+	respondd-module-airtime
 
 # from ffslfl-packages:
 GLUON_SITE_PACKAGES += \
@@ -52,7 +54,7 @@ GLUON_SITE_PACKAGES += haveged iwinfo
 #		to decide if a version is newer or not.
 
 # When building a self made Version use this syntax:
-DEFAULT_GLUON_RELEASE := 2019.1-0.6.0~dev$(shell date '+%y%m%d%H%M')
+DEFAULT_GLUON_RELEASE := 2021.1.1-0.7.0~dev$(shell date '+%y%m%d%H%M')
 
 # When building a experimental version use this syntax:
 #DEFAULT_GLUON_RELEASE := 2019.1-0.6.0~exp$(shell date '+%y%m%d%H%M')
