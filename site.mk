@@ -11,14 +11,14 @@ GLUON_FEATURES := \
 	status-page \
 	web-advanced \
 	web-wizard \
-        config-mode-geo-location \
-        config-mode-geo-location-osm \
-        web-private-wifi \
-        radv-filterd \
-        web-logging
+	config-mode-geo-location \
+	config-mode-geo-location-osm \
+	web-private-wifi \
+	radv-filterd \
+	web-logging
 
 GLUON_FEATURES_standard := \
-  wireless-encryption-wpa3
+	wireless-encryption-wpa3
 
 GLUON_SITE_PACKAGES += \
 	respondd-module-airtime
