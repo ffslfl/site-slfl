@@ -3,6 +3,16 @@ Site Dateien für Freifunk Kreis Schleswig-Flensburg
 
 ## Changelog
 
+### 2021.1.1-0.7.0
+- Update to 2021.1.1
+- Fix mesh-vpn logic
+- Update packages
+- Make usage of osm map possible
+- Allow external logging server
+- Make wpa3 for private wifi possible
+- Make tunneldigger not change to fastd after this update (Requires manual setting in the config mode to apply)
+- Enable vlanx on the wired mesh
+
 ### 2019.1-0.6.0
 - Update to 2019.x
 - Fix ingress/egress code
