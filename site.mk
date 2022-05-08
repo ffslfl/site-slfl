@@ -48,7 +48,7 @@ GLUON_SITE_PACKAGES += \
 #		to decide if a version is newer or not.
 
 # When building a self made Version use this syntax:
-DEFAULT_GLUON_RELEASE := 2017.1.5-0.4.2~dev$(shell date '+%y%m%d%H%M')
+DEFAULT_GLUON_RELEASE := 2018.2.3-0.6.0~dev$(shell date '+%y%m%d%H%M')
 
 # When building a experimental version use this syntax:
 #DEFAULT_GLUON_RELEASE := 2017.1.5-0.4.2~exp$(shell date '+%y%m%d%H%M')
