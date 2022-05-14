@@ -3,8 +3,6 @@ name: Build FFSLFL firmware
 on:
   workflow_dispatch:
   push:
-    tags:
-      - v*
   pull_request:
 
 jobs:
