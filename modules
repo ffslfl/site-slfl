@@ -1,22 +1,33 @@
 # This file allows specifying additional repositories to use
 # when building gluon.
+#
+# In most cases, it is not required so don't add it.
 
+##	GLUON_SITE_FEEDS
+#		for each feed name given, add the corresponding PACKAGES_* lines
+#		documented below
 GLUON_SITE_FEEDS='ffki ffslfl'
 
-# the git repository from where to clone the package feed
+##	PACKAGES_FFKI_REPO
+#		the  git repository from where to clone the package feed
 PACKAGES_FFKI_REPO=https://github.com/freifunk-kiel/ffki-packages.git
 
-# the version/commit of the git repository to clone
+##	PACKAGES_FFKI_COMMIT
+#		the version/commit of the git repository to clone
 PACKAGES_FFKI_COMMIT=f21206db8c8f6362eb40609ff92f1e6713236c4b
 
-# the branch to check out
+##  PACKAGES_FFSLFL_BRANCH
+#   the branch to check out
 PACKAGES_FFKI_BRANCH=2018.1.x
 
-# the git repository from where to clone the package feed
+##	PACKAGES_FFSLFL_REPO
+#		the  git repository from where to clone the package feed
 PACKAGES_FFSLFL_REPO=https://github.com/ffslfl/slfl-packages.git
 
-# the version/commit of the git repository to clone
+##	PACKAGES_FFSLFL_COMMIT
+#		the version/commit of the git repository to clone
 PACKAGES_FFSLFL_COMMIT=69f8598dc07310172266df8a480034dd42d72abd
 
-# the branch to check out
+##  PACKAGES_FFSLFL_BRANCH
+#   the branch to check out
 PACKAGES_FFSLFL_BRANCH=2021.1.x
