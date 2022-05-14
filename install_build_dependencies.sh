@@ -2,10 +2,10 @@
 
 set -eEux
 
-# Verify that the script is running in Ubuntu
+# Verify that the script is running in a Ubuntu machine
 . /etc/lsb-release
 if [ "$DISTRIB_ID" != "Ubuntu" ]; then
-    echo "Error: This script only works in Ubuntu"
+    echo "Error: This script only works with Ubuntu"
     exit 1
 fi
 
