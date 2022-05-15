@@ -26,7 +26,7 @@ PACKAGES_FFSLFL_REPO=https://github.com/ffslfl/slfl-packages.git
 
 ##	PACKAGES_FFSLFL_COMMIT
 #		the version/commit of the git repository to clone
-PACKAGES_FFSLFL_COMMIT=69f8598dc07310172266df8a480034dd42d72abd
+PACKAGES_FFSLFL_COMMIT=a2b66658d0eaa35cb3d24b159d8d010f4f245ada
 
 ##  PACKAGES_FFSLFL_BRANCH
 #   the branch to check out
